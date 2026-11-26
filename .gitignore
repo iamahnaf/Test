@@ -1,2 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*venv/
+/tfdml_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated datasets and local artifacts
 *.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Logs and runtime files
+*.log
+*.tmp
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
